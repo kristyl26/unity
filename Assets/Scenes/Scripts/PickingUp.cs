@@ -18,7 +18,7 @@ public class PickingUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canpickup==true)
+        if (canpickup)
         {
             if (Input.GetKeyDown("e"))
             {
