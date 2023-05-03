@@ -23,6 +23,8 @@ public class CarEnterExitSystem : MonoBehaviour
     {
         CarController.enabled = false;
         DriveUi.gameObject.SetActive(false);
+        
+     
     }
 
     // Update is called once per frame
