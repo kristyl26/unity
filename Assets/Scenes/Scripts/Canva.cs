@@ -7,12 +7,13 @@ using UnityEngine;
 public class Canva : MonoBehaviour
 {
     public GameObject ShoppingUi;
+    public GameObject ReciptUi;
 
     void Start()
     {
         
         ShoppingUi.gameObject.SetActive(false);
-
+       
 
     }
 
@@ -21,11 +22,14 @@ public class Canva : MonoBehaviour
         if (other.gameObject.tag == "basket")
         {
             ShoppingUi.gameObject.SetActive(true);
+           
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        ShoppingUi.gameObject.SetActive(false);
+      
     }
+
+    
 }

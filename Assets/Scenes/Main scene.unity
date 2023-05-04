@@ -1012,6 +1012,24 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0cf016bd6f43d4fa2af25ec6f66902, type: 3}
+--- !u!1 &75987782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6758669633774538431, guid: 8eb8ee281eacf40498cad5efcaf573a0, type: 3}
+  m_PrefabInstance: {fileID: 1602950801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &75987786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75987782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 129.99998, y: 70, z: 82.887}
+  m_Center: {x: 0, y: 0, z: 1.4440675}
 --- !u!4 &80909378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
@@ -19213,6 +19231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: store
       objectReference: {fileID: 0}
+    - target: {fileID: 6758669633774538431, guid: 8eb8ee281eacf40498cad5efcaf573a0, type: 3}
+      propertyPath: m_TagString
+      value: payment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8eb8ee281eacf40498cad5efcaf573a0, type: 3}
@@ -23015,6 +23037,10 @@ PrefabInstance:
       propertyPath: ShoppingUi
       value: 
       objectReference: {fileID: 695255350}
+    - target: {fileID: 8498863848743056122, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: ReciptUi
+      value: 
+      objectReference: {fileID: 587608280}
     m_RemovedComponents:
     - {fileID: 848980760314009308, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
     m_AddedGameObjects: []
