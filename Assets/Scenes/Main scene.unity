@@ -4796,6 +4796,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 466200, guid: 53d52db1c19f08c4b8a940b2252e0ac8, type: 3}
   m_PrefabInstance: {fileID: 1510053367}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &454734262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+  m_PrefabInstance: {fileID: 1995239586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &455337503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12794,7 +12799,7 @@ PrefabInstance:
     - target: {fileID: 680798965029458443, guid: b9520086e6044ec428e7142211bb0ef7, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1427876111}
+      objectReference: {fileID: 454734262}
     - target: {fileID: 680798965029458443, guid: b9520086e6044ec428e7142211bb0ef7, type: 3}
       propertyPath: carCam
       value: 
@@ -16447,11 +16452,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6adbac25fbbce1941addef907602c539, type: 3}
---- !u!4 &1427876111 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-  m_PrefabInstance: {fileID: 1995239586}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1432293672 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
