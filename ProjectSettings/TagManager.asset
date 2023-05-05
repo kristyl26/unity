@@ -8,6 +8,8 @@ TagManager:
   - wall
   - other
   - basket
+  - payment
+  - car
   layers:
   - Default
   - TransparentFX
