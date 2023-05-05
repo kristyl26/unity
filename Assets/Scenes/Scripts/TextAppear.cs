@@ -2,29 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ReciptCanva : MonoBehaviour
+public class TextAppear : MonoBehaviour
 {
-    public GameObject ReciptUi;
-  
-    private float timeToAppear =3f;
+    public GameObject TextUi;
+    private float timeToAppear = 3f;
     private float timeWhenDisappear;
 
     // Start is called before the first frame update
     void Start()
     {
-        ReciptUi.gameObject.SetActive(false);
+        TextUi.gameObject.SetActive(false);
     }
-
-    
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "payment")
+        if (other.gameObject.tag == "Player")
         {
-            ReciptUi.gameObject.SetActive(true);
+            TextUi.gameObject.SetActive(true);
             timeWhenDisappear = Time.time + timeToAppear;
         }
-
     }
 
     void OnTriggerExit(Collider other)
@@ -34,10 +30,10 @@ public class ReciptCanva : MonoBehaviour
 
     void Update()
     {
-        if (ReciptUi.gameObject && (Time.time >= timeWhenDisappear))
+        if (TextUi.gameObject && (Time.time >= timeWhenDisappear))
         {
-            ReciptUi.gameObject.SetActive(false);
-          
+            TextUi.gameObject.SetActive(false);
+
         }
     }
 }
