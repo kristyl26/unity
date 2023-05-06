@@ -30,7 +30,7 @@ public class PickingUp : MonoBehaviour
 
             }
         }
-            if (Input.GetButtonDown("q")&&hasItem==true)
+            if (Input.GetKeyDown("q")&&hasItem==true)
             {
                 ObjectIwantToPickUp.GetComponent<Rigidbody>().isKinematic=false;
 
