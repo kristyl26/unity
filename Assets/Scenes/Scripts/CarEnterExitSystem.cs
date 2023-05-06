@@ -77,6 +77,8 @@ public class CarEnterExitSystem : MonoBehaviour
         {
             
             Candrive = false;
+            DriveUi.gameObject.SetActive(false);
+
         }
     }
 }
