@@ -5,6 +5,7 @@ using UnityEngine;
 public class ReciptCanva : MonoBehaviour
 {
     public GameObject ReciptUi;
+    public GameObject BuyUi;
   
     private float timeToAppear =3f;
     private float timeWhenDisappear;
@@ -37,6 +38,7 @@ public class ReciptCanva : MonoBehaviour
         if (ReciptUi.gameObject && (Time.time >= timeWhenDisappear))
         {
             ReciptUi.gameObject.SetActive(false);
+           
           
         }
     }
